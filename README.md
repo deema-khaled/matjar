@@ -23,6 +23,10 @@ Shoppers browse, search and filter products, add them to a cart, and check out a
 | --- | --- |
 | ![Arabic storefront](docs/screenshots/home-ar.png) | ![Product](docs/screenshots/product.png) |
 
+| Admin dashboard | Orders |
+| --- | --- |
+| ![Admin dashboard](docs/screenshots/admin-dashboard.jpg) | ![Orders](docs/screenshots/admin-orders.jpg) |
+
 ## Features
 
 **Storefront (Vue 3 + Inertia)**

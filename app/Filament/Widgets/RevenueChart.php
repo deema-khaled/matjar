@@ -9,6 +9,9 @@ class RevenueChart extends ChartWidget
 {
     protected static ?string $heading = 'Revenue (JOD), last 30 days';
 
+    // Render with the page instead of waiting until scrolled into view.
+    protected static bool $isLazy = false;
+
     protected static ?int $sort = 2;
 
     protected int|string|array $columnSpan = 'full';

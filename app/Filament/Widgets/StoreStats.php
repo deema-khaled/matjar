@@ -11,6 +11,9 @@ use Filament\Widgets\StatsOverviewWidget\Stat;
 
 class StoreStats extends StatsOverviewWidget
 {
+    // Render with the page instead of waiting until scrolled into view.
+    protected static bool $isLazy = false;
+
     protected static ?int $sort = 1;
 
     protected function getStats(): array

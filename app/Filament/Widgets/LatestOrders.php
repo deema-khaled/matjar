@@ -11,6 +11,9 @@ use Filament\Widgets\TableWidget;
 
 class LatestOrders extends TableWidget
 {
+    // Render with the page instead of waiting until scrolled into view.
+    protected static bool $isLazy = false;
+
     protected static ?int $sort = 3;
 
     protected int|string|array $columnSpan = 'full';
